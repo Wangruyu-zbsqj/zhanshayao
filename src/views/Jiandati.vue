@@ -11,8 +11,8 @@
     <div class="k2">
       <el-input v-model="input" placeholder="请输入内容" class="kk1"></el-input>
       <template>
-        <el-button type="primary" class="cx">查询</el-button>
-        <el-button class="cz">重置</el-button>
+        <el-button type="primary" class="cx7">查询</el-button>
+        <el-button class="cz7">重置</el-button>
       </template>
     </div>
     <div class="tjan">
@@ -151,15 +151,15 @@ export default {
   margin-top: 30px;
   margin-right: 250px;
 }
-.cx {
-  position: relative;
-  right: 200px;
-  top: 30px;
+.cx7 {
+  position: absolute;
+  right: 500px;
+  top:128px;
 }
-.cz {
-  position: relative;
-  left: -150px;
-  top:30px;
+.cz7 {
+  position: absolute;
+  left: 820px;
+   top:128px;
 }
 .fy{
   background: white;

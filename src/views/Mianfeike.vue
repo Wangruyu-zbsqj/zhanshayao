@@ -213,13 +213,14 @@ export default {
   margin-right: 250px;
 }
 .cx {
-  position: relative;
+  position: absolute;
   right: 200px;
+  top: 128px;
 }
 .cz {
-  position: relative;
-  left: 280px;
-  top: -40px;
+  position: absolute;
+  left: 1100px;
+   top: 128px;
 }
 .fy{
   background: white;

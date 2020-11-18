@@ -11,8 +11,8 @@
     <div class="k2">
       <el-input v-model="input" placeholder="请输入内容" class="kk1"></el-input>
       <template>
-        <el-button type="primary" class="cx">查询</el-button>
-        <el-button class="cz">重置</el-button>
+        <el-button type="primary" class="cx6">查询</el-button>
+        <el-button class="cz6">重置</el-button>
       </template>
     </div>
     <div class="tjan">
@@ -127,6 +127,7 @@ export default {
           zj:"内容C",
           js:"内容D",
           kclx:"综合素质",
+          name: "教学观是指()",
           rs:"6",
           tjsj:"2017-07-19 14:48:38",
           address1:"内容A"
@@ -198,12 +199,12 @@ export default {
   margin-top: 30px;
   margin-right: 250px;
 }
-.cx {
+.cx6 {
   position: relative;
   right: 200px;
   top: 30px;
 }
-.cz {
+.cz6 {
   position: relative;
   left: -150px;
   top:30px;

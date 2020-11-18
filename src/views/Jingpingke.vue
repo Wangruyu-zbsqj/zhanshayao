@@ -19,8 +19,8 @@
             :value="item.value"
           ></el-option>
         </el-select>
-        <el-button type="primary" class="cx">查询</el-button>
-        <el-button class="cz">重置</el-button>
+        <el-button type="primary" class="cx2">查询</el-button>
+        <el-button class="cz2">重置</el-button>
       </template>
     </div>
     <div class="tjan">
@@ -213,14 +213,15 @@ export default {
   margin-top: 30px;
   margin-right: 250px;
 }
-.cx {
-  position: relative;
+.cx2 {
+  position: absolute;
   right: 200px;
+  top: 128px;
 }
-.cz {
-  position: relative;
-  left: 280px;
-  top: -40px;
+.cz2 {
+  position: absolute;
+  left: 1100px;
+  top: 128px;
 }
 .fy{
   background: white;
