@@ -9,7 +9,7 @@
       </p>
     </div>
     <div class="k2">
-      <el-input v-model="input" placeholder="请输入内容" class="kk1"></el-input>
+      <el-input v-model="input" placeholder="请输入内容" class="kkt"></el-input>
       <template>
         <el-button type="primary" class="cx7">查询</el-button>
         <el-button class="cz7">重置</el-button>
@@ -141,13 +141,13 @@ export default {
 .el-table {
   margin-top: 20px;
 }
-.kk1 {
+.kkt {
   width: 250px;
   float: left;
-  margin-left: -50px;
+  margin-left: 40px;
   margin-top: 30px;
 }
-.kk2 {
+.kktt {
   margin-top: 30px;
   margin-right: 250px;
 }

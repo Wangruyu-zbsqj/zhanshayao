@@ -205,7 +205,7 @@ export default {
 .kk1 {
   width: 250px;
   float: left;
-  margin-left: -50px;
+  margin-left: 30px;
   margin-top: 30px;
 }
 .kk2 {

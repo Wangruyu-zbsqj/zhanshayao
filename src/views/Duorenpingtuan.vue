@@ -9,9 +9,9 @@
       </p>
     </div>
     <div class="k2">
-      <el-input v-model="input" placeholder="活动名称" class="kk1"></el-input>
+      <el-input v-model="input" placeholder="活动名称" class="kkr"></el-input>
       <template>
-        <el-select v-model="value" placeholder="请选择" class="kk2">
+        <el-select v-model="value" placeholder="请选择" class="kkrr">
           <el-option
             v-for="item in options"
             :key="item.value"
@@ -195,16 +195,16 @@ export default {
 .el-table {
   margin-top: 1px;
 }
-.kk1 {
+.kkr {
   width: 200px;
   float: left;
-  margin-left: -70px;
+  margin-left: 10px;
   margin-top: 30px;
 }
-.kk2 {
+.kkrr {
   width: 200px;
   margin-top: 30px;
-  margin-right: 440px;
+  margin-right: 460px;
 }
 .cx20 {
   position: absolute;

@@ -135,6 +135,11 @@ export default new Router({
         path: '/home/dengluzhanghaoguanli',
         name: 'dengluzhanghaoguanli',
         component: ()=>import('./views/Dengluzhanghaoguanli.vue')
+      },
+      {
+        path: '/home/addmianfeike',
+        name: 'addmianfeike',
+        component: ()=>import('./views/Addmianfeike.vue')
       }
     ]
     }

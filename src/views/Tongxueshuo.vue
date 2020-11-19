@@ -9,9 +9,9 @@
       </p>
     </div>
     <div class="k2">
-      <el-input v-model="input" placeholder="请输入内容" class="kk1"></el-input>
+      <el-input v-model="input" placeholder="请输入内容" class="kkh"></el-input>
       <template>
-        <el-select v-model="value" placeholder="请选择" class="kk2">
+        <el-select v-model="value" placeholder="请选择" class="kkhh">
           <el-option
             v-for="item in options"
             :key="item.value"
@@ -203,13 +203,13 @@ export default {
 .el-table {
   margin-top: 20px;
 }
-.kk1 {
+.kkh {
   width: 250px;
   float: left;
-  margin-left: -50px;
+  margin-left: 50px;
   margin-top: 30px;
 }
-.kk2 {
+.kkhh{
   margin-top: 30px;
   margin-right: 250px;
 }
